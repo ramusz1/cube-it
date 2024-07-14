@@ -1,0 +1,2 @@
+# cube-it
+Hyperspectral demosaicing
