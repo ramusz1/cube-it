@@ -5,10 +5,18 @@
  <img width="30%" src="cubeit.svg">
   
 </p>
+
+[Rafał Muszyński](https://orcid.org/0000-0002-1676-8458), [Hiep Luong](https://telin.ugent.be/~hluong/)
+
+[URC](https://urc.ugent.be/) - [IPI](https://ipi.ugent.be/) - [Ghent University](https://www.ugent.be/en), [IMEC](https://www.imec.be/nl)
+
+Official implementation of the paper "CUBE IT: Training Hyperspectral Demosaicing Models using Synthetic Datasets" featured at 14th edition of the [WHISPERS conference](https://www.ieee-whispers.com/)
  
 # Info
 
-Currently, this repository contains only the bare minimum code to run our demosaicing model.
+Currently, this repository contains only the inference code as well as pretrained models.
+
+Training code coming soon.
 
 # Installation
 The following line installs the cubeit package
@@ -30,6 +38,10 @@ Additionally, to run the demo:
 ```bash
 pip install matplotlib
 ```
+
+## Pretrained models
+* trc_bi_ntire_16_band_mixed.pth.tar : model trained on the NTIRE dataset, with band permutations during training
+* trc_bi_synth_coco_100k.pth.tar : model trained on 100k RGB images from the COCO dataset, transformed into random hyperspectral cubes during training
 
 ## Run the demo
 ```
