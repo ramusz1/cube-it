@@ -49,3 +49,11 @@ python demo.py
 ```
 
 Function im2cube takes in an additional argument: guided_adjust. When set to True, this flag applies additional postprocessing on the predicted cube and reduces the reprojection error. This step significantly increases the demosaicing time.
+
+## How to cite
+
+... comming soon ...
+
+## License
+
+MIT License
