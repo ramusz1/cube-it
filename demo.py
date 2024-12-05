@@ -32,7 +32,7 @@ if __name__ == "__main__":
 
     device = 'cuda'
     W,H = 2048, 1088
-    model = load_model(os.path.join("pretrained","best.pth.tar"), device)
+    model = load_model(os.path.join("pretrained","trc_bi_synth_coco_100k.pth.tar"), device)
     raw = read_raw(os.path.join("data","image_000000.raw"), 16, W, H)
     cube1 = im2cube(raw, model, guided_adjust=False, device=device)
     cube2 = im2cube(raw, model, guided_adjust=True, device=device)
@@ -47,4 +47,4 @@ if __name__ == "__main__":
         axs[1,i].set_title(f"band {i * 2}\nadjusted")
     fig.tight_layout()
     plt.show()
-    
+
