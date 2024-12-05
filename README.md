@@ -47,6 +47,10 @@ pip install matplotlib
 ```
 python demo.py
 ```
+Which results in the followint output:
+
+![demo output](demo_output.png)
+
 
 Function im2cube takes in an additional argument: guided_adjust. When set to True, this flag applies additional postprocessing on the predicted cube and reduces the reprojection error. This step significantly increases the demosaicing time.
 
