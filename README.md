@@ -21,6 +21,11 @@ pip install .
 pip install torch numpy opencv-python
 ```
 
+Project tested with
+```
+pip install torch==2.0.1 numpy==1.26.4 opencv-python==4.10.0.84
+```
+
 Additionally, to run the demo:
 ```bash
 pip install matplotlib
