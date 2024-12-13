@@ -57,7 +57,3 @@ Function im2cube takes in an additional argument: guided_adjust. When set to Tru
 ## How to cite
 
 ... comming soon ...
-
-## License
-
-MIT License
