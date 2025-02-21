@@ -32,5 +32,3 @@ Hyperspectral demosaicing aims to recover full spectral information at each pixe
   pages={1-5},
   doi={10.1109/WHISPERS65427.2024.10876469}}
 ```
-
-R. Muszyński, H. Luong, "CUBE IT: Training Hyperspectral Demosaicing Models using Synthetic Datasets", in Proceedings WHISPERS 2024 conference, 2024
